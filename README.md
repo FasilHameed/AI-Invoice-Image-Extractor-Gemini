@@ -1,50 +1,44 @@
-# Invoice AI Assistant
+### AI Invoice Extractor
 
-Invoice AI Assistant is a Streamlit web application that utilizes AI to analyze invoices. It allows users to input prompts and upload images of invoices, and then provides analysis results based on AI processing.
+This Hugging Face Spaces demo showcases an AI-powered invoice extractor. It is designed to analyze invoices using advanced natural language processing (NLP) and computer vision techniques. Below are the key features and instructions for using the demo:
 
-## Features
+---
 
-- **AI-Powered Analysis**: Utilizes Google Generative AI to provide insights on uploaded invoices.
-- **Easy-to-Use Interface**: Simple and intuitive user interface for inputting prompts and uploading images.
-- **Custom Styling**: Enhanced UI with custom styling for better user experience.
+### Features:
 
-## Installation
+1. **Invoice Analysis:** The model can extract relevant information from uploaded invoice images or PDF files.
+2. **Natural Language Processing:** Utilizes NLP to understand and extract text-based information from invoices.
+3. **Computer Vision:** Employs computer vision techniques to analyze and extract data from invoice images.
 
-1. Clone the repository:
+---
 
-    ```bash
-    git clone https://github.com/your_username/invoice-ai-assistant.git
-    cd invoice-ai-assistant
-    ```
+### Instructions:
 
-2. Install dependencies:
+1. **Upload Invoice:** Click on the "Upload Invoice" button to choose an image or PDF file of an invoice.
+2. **Analyze:** Once the invoice is uploaded, click on the "Analyze" button to initiate the analysis process.
+3. **View Results:** The extracted information from the invoice will be displayed on the screen.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+---
 
-3. Set up environment variables:
+### Demo Link:
 
-    ```bash
-    # Create a .env file
-    touch .env
-    ```
+[AI Invoice Extractor Demo](https://huggingface.co/spaces/lisaf/AI-Invoice_Extractor)
 
-    Add your Google API key to the `.env` file:
+---
 
-    ```
-    GOOGLE_API_KEY=your_api_key_here
-    ```
+### About the Model:
 
-## Usage
+The model used in this demo is trained on a large dataset of invoices to accurately extract relevant information. It combines state-of-the-art NLP and computer vision techniques to achieve high accuracy in invoice analysis.
 
-1. Run the Streamlit app:
+---
 
-    ```bash
-    streamlit run app.py
-    ```
+### Support:
 
-## Customization
+For any inquiries or support regarding the AI Invoice Extractor, please reach out to the model author through the Hugging Face Spaces platform.
 
-You can customize the styling and functionality of the app by modifying the `app.py` file and the CSS styles within it.
+---
+
+### Disclaimer:
+
+This demo is for demonstration purposes only. The accuracy of the extracted information may vary depending on the complexity and quality of the invoice documents. Always review the extracted information for accuracy and consult professional advice when necessary.
 
